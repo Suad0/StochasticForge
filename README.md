@@ -48,7 +48,7 @@ StochasticForge/
 ### 🧱 Building from Source
 
 ```bash
-git clone https://github.com/yourusername/StochasticForge.git
+git clone https://github.com/Suad0/StochasticForge.git
 cd StochasticForge
 mkdir build && cd build
 cmake ..
