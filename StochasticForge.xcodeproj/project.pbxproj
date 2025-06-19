@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1123DECF2E038A9800E2A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1123DECE2E038A9800E2A890 /* main.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		1123DEC92E038A9800E2A890 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,7 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1123DECB2E038A9800E2A890 /* StochasticForge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StochasticForge; sourceTree = BUILT_PRODUCTS_DIR; };
+		1123DECB2E038A9800E2A890 /* StochasticForge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = StochasticForge; path = /Users/suad/ProjektePrivate/XcodeProjekte/StochasticForge/build/Debug/StochasticForge; sourceTree = "<absolute>"; };
+		1123DECE2E038A9800E2A890 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				1123DECD2E038A9800E2A890 /* StochasticForge */,
-				1123DECC2E038A9800E2A890 /* Products */,
+				1123DECE2E038A9800E2A890 /* main.cpp */,
 			);
-			sourceTree = "<group>";
-		};
-		1123DECC2E038A9800E2A890 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1123DECB2E038A9800E2A890 /* StochasticForge */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +103,7 @@
 			mainGroup = 1123DEC22E038A9800E2A890;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1123DECC2E038A9800E2A890 /* Products */;
+			productRefGroup = 1123DEC22E038A9800E2A890;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -120,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1123DECF2E038A9800E2A890 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

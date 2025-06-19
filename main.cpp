@@ -6,6 +6,12 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
+#include <iomanip>
+#include <fstream>
+
+
 
 int main(int argc, const char * argv[]) {
     
